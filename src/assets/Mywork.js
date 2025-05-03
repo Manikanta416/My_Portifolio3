@@ -4,6 +4,7 @@ import smt from '../assets/smt.jpg'
 import Portifolio from '../assets/Portifolio.png'
 import Book from '../assets/Book.png'
 import python from '../assets/python.png'
+import prep from '../assets/prep.png'
 
 
 
@@ -11,8 +12,8 @@ const Mywork_Data=[
    
     {
         s_no:"2",
-        s_name:"My-Portifolio",
-        s_img:Portifolio,
+        s_name:"Prep Mate",
+        s_img:prep,
     },
     
     {
