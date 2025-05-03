@@ -68,3 +68,40 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+@media (max-width: 768px) {
+    .services {
+      margin: 40px 20px;
+      gap: 40px;
+    }
+  
+    .services-title h1 {
+      font-size: 40px;
+      padding: 0px 15px;
+    }
+  
+    .services-container {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+  
+    .services-format {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .services-format h3 {
+      font-size: 24px;
+    }
+  
+    .services-format h2 {
+      font-size: 30px;
+    }
+  
+    .services-format p {
+      font-size: 18px;
+      line-height: 30px;
+      max-width: 100%;
+    }
+  }
+  

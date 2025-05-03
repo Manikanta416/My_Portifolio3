@@ -75,3 +75,45 @@
     text-decoration: none;
     color: white;
 }
+@media (max-width: 768px) {
+    .hero {
+      gap: 20px;
+      margin-top: 20px;
+      height: auto;
+      padding: 40px 15px;
+    }
+  
+    .hero img {
+      margin-top: 50px;
+      width: 150px;
+      height: 150px;
+    }
+  
+    .hero h1 {
+      width: 100%;
+      font-size: 40px;
+    }
+  
+    .hero p {
+      width: 90%;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .hero-action {
+      flex-direction: column;
+      gap: 15px;
+      font-size: 18px;
+    }
+  
+    .hero-connect, .hero-resume {
+      padding: 15px 30px;
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 32px;
+    }
+  }
